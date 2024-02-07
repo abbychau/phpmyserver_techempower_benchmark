@@ -1,0 +1,19 @@
+[framework]
+name = "php-phpmyserver"
+
+[main]
+urls.plaintext = "/?action=plaintext"
+urls.json = "/?action=json"
+urls.db = "/?action=db"
+urls.query = "/?action=query&q="
+urls.update = "/?action=update&q="
+urls.fortune = "/?action=fortunes"
+approach = "Realistic"
+classification = "Platform"
+database = "None"
+database_os = "Linux"
+os = "Linux"
+orm = "Raw"
+platform = "phpmyserver"
+webserver = "php"
+versus = "php"

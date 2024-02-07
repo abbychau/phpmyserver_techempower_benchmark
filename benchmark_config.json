@@ -1,0 +1,30 @@
+{
+  "framework": {
+    "name": "phpmyserver"
+  },
+  "tests": [{
+    "default": {
+      "db": "/?action=db",
+      "fortune": "/?action=fortunes",
+      "json": "/?action=json",
+      "plaintext": "/?action=plaintext",
+      "query": "/?action=query&q=",
+      "update": "/?action=update&q=",
+      "approach": "Realistic",
+      "classification": "Platform",
+      "database": "MySQL",
+      "framework": "phpmyserver",
+      "orm": "Raw",
+      "os": "Linux",
+      "platform": "phpmyserver",
+      "webserver": "php",
+      "language": "PHP",
+      "flavor": "PHP8",
+      "database_os": "Linux",
+      "port": 9000,
+      "display_name": "phpmyserver",
+      "notes": "",
+      "versus": "php"
+    }
+  }]
+}
